@@ -15,7 +15,7 @@ object GPXDataHandler {
   val streamRecorder = "org.apache.hadoop.streaming.StreamXmlRecordReader"
   val startTag = "<trkseg>"
   val endTag = "</trkseg>"
-  val dataLocation = "file:////home/bogdan/Development/osm data/GPX data/*.gpx"
+  val dataLocation = "file:////dir/to/data/*.gpx"
 }
 
 class GPXDataHandler {
