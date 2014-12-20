@@ -24,7 +24,6 @@ dependencies {
 	compile 'org.apache.hadoop:hadoop-streaming:2.4.1'
 	compile 'org.mongodb:mongo-java-driver:2.12.4'
 	compile 'org.mongodb:mongo-hadoop-core:1.3.0'
-	compile 'org.mongodb:casbah-core_2.9.1:2.6.5'
 	
 	testCompile group: 'junit', name: 'junit', version: "$junit_version"
 }
